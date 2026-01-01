@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./snake.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="main">
+        
+        <div id="top_div">
+           
+
+<div id="icon">
+   <h3> <i class="fa-solid fa-bars" style="color:#ffffff;"></i></h3>
+</div>
+
+<div id="model1">
+    
+    <div id="game">
+        <h3>    Pause or Quit Game</h3><br>
+       <button class="pause-btn">Resume</button>
+        <button class="quit-btn">Quit Game</button>
+    </div>
+</div>
+
+
+
+
+        <div id="highScore">
+            <h3>High Score :<span id="highScore-value">0</span>
+            </h3>
+        </div>
+        <div id="score">
+            <h3>Score:<span id="score-value">0</span></h3>
+        </div>
+        <div id="time">
+            <h3>Time: <span id="time-value">00-00</span></h3>
+        </div>
+        </div>
+       
+        <div id="border">
+            
+        </div>
+        
+        <div class="model">
+            <div class="start-game">
+             <h3>Welcome to Snake Game</h3>
+             <button class="start-btn">start Game</button>
+        </div>
+        <div id="snake"></div>
+        <div class="Game-over">
+           <h3>Game Over</h3>
+             <button class="Restart-btn" onclick="restartGame()">Restart Game</button>
+        </div>
+    </div>
+
+</div>
+    <script  src="./snake.js"></script>
+</body>
+</html>
